@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="rfc7991bis.rnc"?>
+<!DOCTYPE rfc [
+        <!ENTITY nbsp    "&#160;">
+        <!ENTITY zwsp   "&#8203;">
+        <!ENTITY nbhy   "&#8209;">
+        <!ENTITY wj     "&#8288;">
+]>
+<rfc xmlns:xi="http://www.w3.org/2001/XInclude"
+     ipr="trust200902" submissionType="IETF" category="std" version="3" docName="draft-misell-opsec-rfc7454bis-latest">
+    <front>
+        <title abbrev="BGP OPSEC">BGP Operations and Security</title>
+        <seriesInfo name="Internet-Draft" status="standard" value="draft-misell-opsec-rfc7454bis-latest"/>
+        <author fullname="Tobias Fiebig" initials="T." surname="Fiebig">
+            <address>
+                <email>tobias@fiebig.nl</email>
+                <uri>https://fiebig.nl</uri>
+            </address>
+        </author>
+        <author fullname="Carlos M. Martinez" initials="C." surname="Martinez">
+            <organization abbrev="LACNIC">Latin American and Caribbean Internet Address Registry</organization>
+            <address>
+                <postal>
+                    <street>Rambla Mexico 6125</street>
+                    <city>Montevideo</city>
+                    <code>11400</code>
+                    <country>Uruguay</country>
+                </postal>
+                <phone>+598 2604 2222</phone>
+                <email>carlos@lacnic.net</email>
+            </address>
+        </author>
+        <author fullname="Q Misell" initials="Q" surname="Misell">
+            <organization abbrev="AS207960">AS207960 Cyfyngedig</organization>
+            <address>
+                <postal>
+                    <street>13 Pen-y-lan Terrace</street>
+                    <city>Caerdydd</city>
+                    <code>CF23 9EU</code>
+                    <country>United Kingdom</country>
+                </postal>
+                <email>q@as207970.net</email>
+                <email>q@magicalcodewit.ch</email>
+                <uri>https://magicalcodewit.ch</uri>
+            </address>
+        </author>
+        <area>ops</area>
+        <workgroup>Operational Security Capabilities for IP Network Infrastructure</workgroup>
+
+        <abstract>
+            <t></t>
+        </abstract>
+    </front>
+
+    <middle>
+        <section>
+            <name>Introduction</name>
+            <t></t>
+
+            <section>
+                <name>Requirements Language</name>
+                <t>The key words <bcp14>MUST</bcp14>, <bcp14>MUST NOT</bcp14>, <bcp14>REQUIRED</bcp14>, <bcp14>SHALL</bcp14>,
+                    <bcp14>SHALL NOT</bcp14>, <bcp14>SHOULD</bcp14>, <bcp14>SHOULD NOT</bcp14>, <bcp14>RECOMMENDED</bcp14>,
+                    <bcp14>NOT RECOMMENDED</bcp14>, <bcp14>MAY</bcp14>, and <bcp14>OPTIONAL</bcp14> in this document are to be
+                    interpreted as described in <xref target="BCP14"/> when, and only when, they appear in all capitals,
+                    as shown here.</t>
+            </section>
+        </section>
+    </middle>
+
+    <back>
+        <references>
+            <name>References</name>
+            <references>
+                <name>Normative References</name>
+
+                <referencegroup anchor="BCP14" target="https://www.rfc-editor.org/info/bcp14">
+                    <xi:include href="https://www.rfc-editor.org/refs/bibxml/reference.RFC.2119.xml"/>
+                    <xi:include href="https://www.rfc-editor.org/refs/bibxml/reference.RFC.8174.xml"/>
+                </referencegroup>
+            </references>
+            <references>
+                <name>Informative References</name>
+
+            </references>
+        </references>
+    </back>
+</rfc>
